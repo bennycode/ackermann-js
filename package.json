@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bench": "node benchmark.js",
     "test": "jasmine"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/bennyn/ackermann-js/issues"
   },
-  "homepage": "https://github.com/bennyn/ackermann-js#readme"
+  "homepage": "https://github.com/bennyn/ackermann-js#readme",
+  "devDependencies": {
+    "benchmark": "2.1.4"
+  }
 }
